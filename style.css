@@ -16,7 +16,7 @@ body {
 
 .main {
     border: 1.5px solid black;
-    width: 336px;
+    width: 280px;
     box-shadow: 10px 10px 0px;
     background-color: hsl(0, 0%, 100%);
     display: grid;
@@ -81,7 +81,7 @@ body {
 
 .publish-date {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .avatar {
@@ -99,6 +99,7 @@ body {
 }
 
 @media only screen 
+
 and (min-width : 375px) {
   .main{
     width: 280px;
@@ -108,10 +109,28 @@ and (min-width : 375px) {
     font-size: 12px;
   }
   .avatar{
-    width: 30px;
+    width: 25px;
   }
   .main-para{
     font-size: 14px;
+  }
+
+}
+@media only screen 
+
+and (min-width : 1224px) {
+  .main{
+    width: 336px;
+  }
+ 
+  .publish-date{
+    font-size: 14px;
+  }
+  .avatar{
+    width: 35px;
+  }
+  .main-para{
+    font-size: 16px;
   }
 
 }
